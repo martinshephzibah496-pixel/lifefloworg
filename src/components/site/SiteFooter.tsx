@@ -18,6 +18,7 @@ export function SiteFooter() {
           <Link className={a} to="/tools/$slug" params={{ slug: "mortgage-affordability-calculator" }}>Affordability</Link>
           <Link className={a} to="/tools/$slug" params={{ slug: "rent-vs-buy-calculator" }}>Rent vs. buy</Link>
           <Link className={a} to="/resources">Planners & checklists</Link>
+          <a className={a} href="/resources#recommendations">Recommendations</a>
         </div>
         <div className={col}><p className="font-semibold text-foreground">Company</p>
           <Link className={a} to="/about">About</Link><Link className={a} to="/blog">Blog</Link>
