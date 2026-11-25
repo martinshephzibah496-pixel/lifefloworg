@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Calculators are data-driven configs in src/lib/calculators.ts rendered by one CalculatorView; add new calculators there so math stays testable.
+- Content (articles, planners, FAQ) lives in typed arrays under src/lib; routes look up by slug — no CMS yet.
+- Forms (contact, newsletter) use mailto until Lovable Cloud is enabled.
